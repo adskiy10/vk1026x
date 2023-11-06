@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car shop</title>
+</head>
+<body>
+    <form action="https://fom.in.ua/echo">
+    <table border="1" cellpadding="14" cellspacing="0" width="600" height="100" align="center">
+        <thead>
+         <h3 align="center">Search</h3>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Body type</td>
+                <td>
+                    <select name="Body type" id="">
+                    <option value="Sedan">Sedan</option>
+                    <option value="Compartment">Compartment</option>
+                    <option value="SUV">SUV</option>
+                    <option value="Crossover or SUV (CUV)">Crossover or SUV (CUV)</option>
+                    <option value="Hatchback">Hatchback</option>
+                    <option value="Station wagon">Station wagon</option>
+                    <option value="Cabriolet">Cabriolet</option>
+                    <option value="Pickup">Pickup</option>
+                </select></td>
+              </tr>
+              <tr>
+                <td>Car brand</td>
+                <td>
+                    <select name="Car brand" id="">
+                    <option value="Mazda">Mazda</option>
+                    <option value="Toyota">Toyota</option>
+                    <option value="BMW">BMW</option>
+                    <option value="Audi">Audi</option>
+                    <option value="Volkswagen">Volkswagen</option>
+                    <option value="Mersedes">Mersedes</option>
+                    <option value="Ford">Ford</option>
+                    <option value="Opel">Opel</option>
+                    <option value="Kia">Kia</option>
+                    <option value="Honda">Honda</option>
+                    <option value="Citroen">Citroen</option>
+                    <option value="Renault">Renault</option>
+                </select></td>
+              </tr>
+              <tr>
+                <td>Producing country</td>
+                <td>
+                    <select name="Producing country" id="">
+                    <option value="Denmark">Denmark</option>
+                    <option value="France">France</option>
+                    <option value="Germany">Germany</option>
+                    <option value="Italy">Italy</option>
+                    <option value="Japan">Japan</option>
+                    <option value="Korea">Korea</option>
+                    <option value="Ukraine">Ukraine</option>
+                    <option value="China">China</option>
+                </select></td>
+              </tr>
+              <tr>
+                <td>Price (from and to)</td>
+                <td>
+                    <br>Price (from 0 and to 100000$)<br>
+                    <input type="range" name="Price" id="">
+                </td>
+              </tr>
+              <tr>
+                <td>Year of issue (from and to)</td>
+                <td>
+                    <select name="Year of issue (from and to)" id="">
+                    <option value="From">From</option>
+                    <option value="2000-2005">2000-2005</option>
+                    <option value="2005-2010">2005-2010</option>
+                    <option value="2010-2015">2010-2015</option>
+                    <option value="2015-2020">2015-2020</option>
+                </select></td>
+              </tr>
+              <tr>
+                <td>Condition</td>
+                <td>
+                    <label><input type="checkbox" name="Condition New" id="">New</label>
+                    <label><input type="checkbox" name="Condition Used" id="">Used</label>
+                    <label><input type="checkbox" name="Condition Uncleared" id="">Uncleared</label>
+                </td>
+              </tr>
+              <tr>
+                <td>Fuel type</td>
+                <td>
+                    <label><input type="radio" name="Fuel type Gasoline" id="">Gasoline</label>
+                    <label><input type="radio" name="Fuel type Diesel" id="">Diesel</label>
+                    <label><input type="radio" name="Fuel type Gas" id="">Gas</label>
+                    <label><input type="radio" name="Fuel type Electro" id="">Electro</label>
+                </td>
+              </tr>
+              <tr>
+                <td>Type of gearbox</td>
+                <td>
+                    <label><input type="checkbox" name="Type of gearbox Mechanical" id="">Mechanical</label>
+                    <label><input type="checkbox" name="Type of gearbox Automaton" id="">Automaton</label>
+                </td>
+              </tr>
+              <tr>
+                <td>Color</td>
+                <td>
+                    <label><input type="color" name="Color" id=""></label>
+                </td>
+              </tr>
+              <tr>
+                <td>Comfort</td>
+                <td>
+                    <label><input type="checkbox" name="Comfort Air conditioning" id="">Air conditioning</label>
+                    <label><input type="checkbox" name="Comfort Hatch" id="">Hatch</label>
+                    <label><input type="checkbox" name="Comfort Leather salon" id="">Leather salon</label>
+                    <label><input type="checkbox" name="Comfort Seat heating" id="">Seat heating</label>
+                    <label><input type="checkbox" name="Comfort Body massage" id="">Body massage</label>
+                    <label><input type="checkbox" name="Comfort Car parking" id="">Car parking</label>
+                </td>
+              </tr>
+        </tbody>
+    </table>
+    <table align="center">
+        <tr>
+            <td>
+                <input type="submit" name="Search" id=""></td>
+        </tr>
+    </table>
+    </form>  
+</body>
+</html>
